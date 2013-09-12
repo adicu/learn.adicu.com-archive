@@ -1,0 +1,199 @@
+{
+  "topics": [
+    {
+      "name": "HTML",
+      "description": "Dictates the structure and contents of every web page on the internet",
+      "resources": [
+        {
+          "name": "HTML Dog",
+          "url": "http://www.htmldog.com/guides/html",
+          "description": "Walks you through learning all the different HTML tags one at a time. Beginner, intermediate, and advanced tracks. A great place to start!"
+        },
+        {
+          "name": "Mozilla Developer Network",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+          "description": "Extensive reference by the organization behind Firefox. If you need any element of HTML explained to you very clearly or in detail, look here."
+        },
+        {
+          "name": "Dive Into HTML5",
+          "url": "http://diveintohtml5.info/",
+          "description": "Clearly explains hand-picked features of the latest and greatest version of HTML, HTML5, and how HTML5 compares to earlier HTML standards."
+        },
+        {
+          "name": "HTML5 Rocks",
+          "url": "http://diveintohtml5.info/",
+          "description": "Promotes innovations and describes best practices in HTML5. Once you've mastered the basics, check in here regularly."
+        },
+        {
+          "name": "HTML5 Boilerplate",
+          "url": "http://html5boilerplate.com/",
+          "description": "The web's most popular front-end template. Starting a new project? Hit the ground running with HTML5 Boilerplate."
+        }
+      ]
+    },
+    {
+      "name": "CSS",
+      "description": "The code that styles HTML: dictates look, layout, and general presentation.",
+      "resources": [
+        {
+          "name": "HTML Dog",
+          "url": "http://www.htmldog.com/guides/css",
+          "description": "HTML dog will walk you through learning a lot of the most important CSS properties. They have beginner, intermediate, and advanced tracks."
+        },
+        {
+          "name": "Mozilla Developer Network",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+          "description": "Extensive reference by the organization behind Firefox. If you need any property of CSS explained to you very clearly or in detail, look here."
+        }
+      ]
+    },
+    {
+      "name": "CSS Preprocessors",
+      "description": "Once you've got the hang of CSS, CSS preprocessors allow you to write CSS using more powerful features, such as variables, functions, and “mixins.” After development, these files get compiled into regular CSS that all web browsers can understand.",
+      "resources": [
+        {
+          "name": "Sass",
+          "url": "http://sass-lang.com/",
+          "description": "Sass makes CSS fun again. Sass is an extension of CSS3, adding nested rules, variables, mixins, selector inheritance, and more. It’s translated to well-formatted, standard CSS using the command line tool or a web-framework plugin."
+        },
+        {
+          "name": "LESS",
+          "url": "http://lesscss.org/",
+          "description": "The dynamic stylesheet language. LESS extends CSS with dynamic behavior such as variables, mixins, operations and functions."
+        },
+        {
+          "name": "Stylus",
+          "url": "http://learnboost.github.io/stylus/",
+          "description": "Stylus is a revolutionary new language, providing an efficient, dynamic, and expressive way to generate CSS. Supporting both an indented syntax and regular CSS style."
+        },
+        {
+          "name": "CSS Preprocessor Shootout",
+          "url": "http://net.tutsplus.com/tutorials/html-css-techniques/sass-vs-less-vs-stylus-a-preprocessor-shootout/",
+          "description": "Side-by-side comparison of Sass, LESS, and Stylus. Check here if you want to see the differences."
+        }
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "description": "The programming language of the web. If you want your web site/app to move, change, or communicate, learn JavaScrpit.",
+      "resources": [
+        {
+          "name": "Eloquent JavaScript",
+          "url": "http://eloquentjavascript.net/contents.html",
+          "description": "Eloquent JavaScript is designed for people without any programming experience, and will teach you how to program while also teaching you the ins and outs of JavaScript."
+        }
+      ]
+    },
+    {
+      "name": "jQuery",
+      "description": "A popular (used on more than half of the 10,000 most popular websites) JavaScript library that greatly simplifies client-side scripting. Write less, do more.",
+      "resources": [
+        {
+          "name": "jQuery",
+          "url": "http://www.jquery.com",
+          "description": "The documentation on the jQuery official site is superb, and is a great way of getting started learning."
+        },
+        {
+          "name": "30 Days to Learn jQuery",
+          "url": "https://tutsplus.com/course/30-days-to-learn-jquery/",
+          "description": "A video series which emails you a video once a day for 30 days in order to provide step-by-step instruction in learning to use jQuery."
+        },
+        {
+          "name": "Unheap",
+          "url": "http://www.unheap.com",
+          "description": "Unheap is an aggregation of open-source jQuery plugins (meaning they’re free to use!), which allow you to do some amazing things like animated image galleries and scroll to refresh."
+        }
+      ]
+    },
+    {
+      "name": "Bootstrap",
+      "description": "Twitter's front-end UI framework which packages up a bunch of useful CSS and JavaScript tools. Great for making web sites quickly. It's \"responsive\", so your site will look good on screens of all sizes (desktop, tablet, mobile).",
+      "resources": [
+        {
+          "name": "Bootstrap",
+          "url": "http://getbootstrap.com/",
+          "description": "Download and learn Bootstrap. See especially the \"Getting started\" page, and check out some examples."
+        },
+        {
+          "name": "Bootstrap Magic",
+          "url": "http://pikock.github.io/bootstrap-magic/index.html",
+          "description": "Easily create a Bootstrap theme."
+        },
+        {
+          "name": "1pxdeep",
+          "url": "http://rriepe.github.io/1pxdeep/",
+          "description": "Flat-ish version of Bootstrap."
+        }
+      ]
+    },
+    {
+      "name": "Foundation",
+      "description": "A front-end UI framework similar to Bootstrap. Looks a little different. It's \"responsive\", so your site will look good on screens of all sizes (desktop, tablet, mobile).",
+      "resources": [
+        {
+          "name": "Foundation",
+          "url": "http://foundation.zurb.com/",
+          "description": "Download and learn Foundation. See especially the \"Docs\" page."
+        }
+      ]
+    },
+    {
+      "name": "AngularJS",
+      "description": "A front-end framework for building maintainable one-page applications. Lets you \"extend\" HTML for dynamic applications.",
+      "resources": [
+        {
+          "name": "Introduction to AngularJS",
+          "url": "http://www.webdesignerdepot.com/2013/04/an-introduction-to-angularjs/",
+          "description": "Post about the capabilities and usage of angular. Good overview of why you might want to use it."
+        },
+        {
+          "name": "AngularJS Guide",
+          "url": "http://docs.angularjs.org/guide/",
+          "description": "Official documentation from the AngularJS team. A great starting point."
+        },
+        {
+          "name": "Angular Seed",
+          "url": "https://github.com/angular/angular-seed",
+          "description": "A small skeleton AngularJS app."
+        },
+        {
+          "name": "AngularJS Learning",
+          "url": "https://github.com/jmcunningham/AngularJS-Learning",
+          "description": "A bunch of links to blog posts, articles, videos, etc. for learning AngularJS."
+        }
+      ]
+    },
+    {
+      "name": "Backbone.js",
+      "description": "An MVC framework for frontend JavaScript. Backbone.js gives structure to web applications by providing models with key-value binding and custom events, collections with a rich API of enumerable functions, views with declarative event handling, and connects it all to your existing API over a RESTful JSON interface.",
+      "resources": [
+        {
+          "name": "Backbone.js",
+          "url": "http://backbonejs.org/",
+          "description": "Backbone home page."
+        }
+      ]
+    },
+    {
+      "name": "Coffeescript",
+      "description": "A frontend language meant to solve the various problems/warts in JavaScript. Syntax inspired by Ruby.",
+      "resources": [
+        {
+          "name": "Coffeescript",
+          "url": "http://www.coffeescript.org/",
+          "description": "Coffeescript homepage. Side-by-side comparison with JavaScript."
+        }
+      ]
+    }
+  ],
+  "paths": [
+    {
+      "name": "Web Site (beginner)",
+      "topics": [ "HTML", "CSS" ]
+    },
+    {
+      "name": "Web Site (intermediate)",
+      "topics": [ "HTML", "CSS", "JavaScript", "jQuery", "Bootstrap", "Foundation"]
+    }
+  ]
+}
