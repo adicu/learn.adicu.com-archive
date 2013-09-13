@@ -16,17 +16,17 @@
         },
         {
           "name": "Dive Into HTML5",
-          "url": "http://diveintohtml5.info/",
+          "url": "http://diveintohtml5.info",
           "description": "Clearly explains hand-picked features of the latest and greatest version of HTML, HTML5, and how HTML5 compares to earlier HTML standards."
         },
         {
           "name": "HTML5 Rocks",
-          "url": "http://diveintohtml5.info/",
+          "url": "http://diveintohtml5.info",
           "description": "Promotes innovations and describes best practices in HTML5. Once you've mastered the basics, check in here regularly."
         },
         {
           "name": "HTML5 Boilerplate",
-          "url": "http://html5boilerplate.com/",
+          "url": "http://html5boilerplate.com",
           "description": "The web's most popular front-end template. Starting a new project? Hit the ground running with HTML5 Boilerplate."
         }
       ]
@@ -53,22 +53,22 @@
       "resources": [
         {
           "name": "Sass",
-          "url": "http://sass-lang.com/",
+          "url": "http://sass-lang.com",
           "description": "Sass makes CSS fun again. Sass is an extension of CSS3, adding nested rules, variables, mixins, selector inheritance, and more. It’s translated to well-formatted, standard CSS using the command line tool or a web-framework plugin."
         },
         {
           "name": "LESS",
-          "url": "http://lesscss.org/",
+          "url": "http://lesscss.org",
           "description": "The dynamic stylesheet language. LESS extends CSS with dynamic behavior such as variables, mixins, operations and functions."
         },
         {
           "name": "Stylus",
-          "url": "http://learnboost.github.io/stylus/",
+          "url": "http://learnboost.github.io/stylus",
           "description": "Stylus is a revolutionary new language, providing an efficient, dynamic, and expressive way to generate CSS. Supporting both an indented syntax and regular CSS style."
         },
         {
           "name": "CSS Preprocessor Shootout",
-          "url": "http://net.tutsplus.com/tutorials/html-css-techniques/sass-vs-less-vs-stylus-a-preprocessor-shootout/",
+          "url": "http://net.tutsplus.com/tutorials/html-css-techniques/sass-vs-less-vs-stylus-a-preprocessor-shootout",
           "description": "Side-by-side comparison of Sass, LESS, and Stylus. Check here if you want to see the differences."
         }
       ]
@@ -95,7 +95,7 @@
         },
         {
           "name": "30 Days to Learn jQuery",
-          "url": "https://tutsplus.com/course/30-days-to-learn-jquery/",
+          "url": "https://tutsplus.com/course/30-days-to-learn-jquery",
           "description": "A video series which emails you a video once a day for 30 days in order to provide step-by-step instruction in learning to use jQuery."
         },
         {
@@ -111,7 +111,7 @@
       "resources": [
         {
           "name": "Bootstrap",
-          "url": "http://getbootstrap.com/",
+          "url": "http://getbootstrap.com",
           "description": "Download and learn Bootstrap. See especially the \"Getting started\" page, and check out some examples."
         },
         {
@@ -121,7 +121,7 @@
         },
         {
           "name": "1pxdeep",
-          "url": "http://rriepe.github.io/1pxdeep/",
+          "url": "http://rriepe.github.io/1pxdeep",
           "description": "Flat-ish version of Bootstrap."
         }
       ]
@@ -132,7 +132,7 @@
       "resources": [
         {
           "name": "Foundation",
-          "url": "http://foundation.zurb.com/",
+          "url": "http://foundation.zurb.com",
           "description": "Download and learn Foundation. See especially the \"Docs\" page."
         }
       ]
@@ -143,12 +143,12 @@
       "resources": [
         {
           "name": "Introduction to AngularJS",
-          "url": "http://www.webdesignerdepot.com/2013/04/an-introduction-to-angularjs/",
+          "url": "http://www.webdesignerdepot.com/2013/04/an-introduction-to-angularjs",
           "description": "Post about the capabilities and usage of angular. Good overview of why you might want to use it."
         },
         {
           "name": "AngularJS Guide",
-          "url": "http://docs.angularjs.org/guide/",
+          "url": "http://docs.angularjs.org/guide",
           "description": "Official documentation from the AngularJS team. A great starting point."
         },
         {
@@ -169,7 +169,7 @@
       "resources": [
         {
           "name": "Backbone.js",
-          "url": "http://backbonejs.org/",
+          "url": "http://backbonejs.org",
           "description": "Backbone home page."
         }
       ]
@@ -180,7 +180,7 @@
       "resources": [
         {
           "name": "Coffeescript",
-          "url": "http://www.coffeescript.org/",
+          "url": "http://www.coffeescript.org",
           "description": "Coffeescript homepage. Side-by-side comparison with JavaScript."
         }
       ]

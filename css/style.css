@@ -1,0 +1,40 @@
+body {
+	margin: 3%;
+	font-family: "Open Sans", sans-serif;
+	background: ;
+}
+
+.main-content {
+	width: 940px;
+	margin: 0px auto;
+	border-radius: 5px;
+	position: relative;
+	top: -65px;
+	background-color: #fff;
+	border: 1px #e6e6e6 solid;
+	padding: 30px;
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+	-moz-box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+h1, h2, h3 {
+	font-weight: 300;
+}
+
+li {
+	list-style: none;
+}
+
+a {	
+	color: #76BFE5;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #999;
+}
+
+ a:visited {
+ 	color: none;
+ }
