@@ -7,7 +7,9 @@ $(function () {
         console.log(data.paths[0].name);
         for (var i = 0; i < data.paths.length; i++) {
            	html += '<h2>' + data.paths[i].name + '</h2>';
-           	html += '<p class="path-topics">' + data.paths[i].topics + '</div>';
+           	for (var j = 0; j < data.paths[i].topics.length; j++) {
+           		html += '<p class="path-topics">' + data.paths[i].topics[j] + '</div>';
+            }
         }
         $('.paths').append(html);
 
