@@ -1,18 +1,46 @@
 body {
-	margin: 3%;
 	font-family: "Open Sans", sans-serif;
-	background: ;
+	background: #F8F8F8;
+}
+
+.jumbotron {
+	width: 100%;
+	height: 450px;
+	background: url('/img/cover-photo.png') fixed center;
+	text-align: center;
+	text-shadow: 1px 1px 1px #666;
+}
+
+.jumbotron h1 {
+	font-style: italic;
+	font-weight: 300;
+	margin: 0;
+	color: #fff;
+	font-size: 150px;
+	padding-top: 60px;
+}
+
+.jumbotron p {
+	font-size: 15px;
+	width: 73%;
+	text-align: right;
+	color: #fff;
+	margin: 0;
+}
+
+.jumbotron img {
+	width: 75px;
 }
 
 .main-content {
-	width: 940px;
+	max-width: 940px;
 	margin: 0px auto;
 	border-radius: 5px;
 	position: relative;
 	top: -65px;
 	background-color: #fff;
 	border: 1px #e6e6e6 solid;
-	padding: 30px;
+	padding: 0px 30px 30px 30px;
 	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.1);
 	-moz-box-shadow: 0 1px 1px rgba(0,0,0,0.1);
 	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
@@ -38,3 +66,40 @@ a:hover {
  a:visited {
  	color: none;
  }
+
+.footer {
+	text-align: center;
+	margin-top: -20px;
+	margin-bottom: 50px;
+}
+
+.footer .links {
+	margin: 0;
+	padding: 0;
+	vertical-align: middle;
+}
+
+.footer li {
+	display: inline-block;
+}
+
+.twitter {
+	background: url('/img/twitter.png') no-repeat;
+	height: 35px;
+	width: 35px;
+	margin: 5px
+}
+
+.fb {
+	background: url('/img/facebook.png') no-repeat;
+	height: 35px;
+	width: 35px;
+	margin: 5px
+}
+
+.github {
+	background: url('/img/github.png') no-repeat;
+	height: 35px;
+	width: 35px;
+	margin: 5px
+}
