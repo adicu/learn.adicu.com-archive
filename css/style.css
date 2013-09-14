@@ -2,7 +2,6 @@ body {
 	font-family: "Open Sans", sans-serif;
 	background: #F8F8F8;
 }
-
 .resources {
 	width: 85%;
 }
@@ -16,6 +15,7 @@ body {
 }
 
 .jumbotron {
+	opacity: 0;
 	width: 100%;
 	height: 450px;
 	background: url('/img/cover-photo.png') fixed center;

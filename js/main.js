@@ -1,5 +1,8 @@
 $(function () {
 
+	$(".jumbotron").delay(100).animate({ opacity: 1 }, 500);
+
+
 	var xhr = $.get("resources.json");
 	xhr.done(function(data) { 
         console.log("success got data", data);
