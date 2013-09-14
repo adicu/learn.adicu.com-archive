@@ -17,7 +17,8 @@ $(function () {
         	html += '<p class="description">' + data.topics[i].description + '</div>';
         	html += '<ul class="resources">';
         	for (var j = 0; j < data.topics[i].resources.length; j++) {
-        		html += '<li><a target="_blank" href=' + data.topics[i].resources[j].url + '>' + data.topics[i].resources[j].name + '</a></li>';
+        		html += '<li><a target="_blank" href=' + data.topics[i].resources[j].url + '>' 
+        		+ data.topics[i].resources[j].name + '</a> &#8212; ' +  data.topics[i].resources[j].description + '</li>';
         	}
         	html += '</ul>';
         }
