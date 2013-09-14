@@ -1,6 +1,6 @@
 $(function () {
 
-	$(".jumbotron").delay(100).animate({ opacity: 1 }, 500);
+	$('.jumbotron h1, .jumbotron p').delay(100).animate({ opacity: 1 }, 500);
 
 
 	var xhr = $.get("resources.json");

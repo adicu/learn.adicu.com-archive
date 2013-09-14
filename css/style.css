@@ -15,7 +15,6 @@ body {
 }
 
 .jumbotron {
-	opacity: 0;
 	width: 100%;
 	height: 450px;
 	background: url('/img/cover-photo.png') fixed center;
@@ -24,6 +23,7 @@ body {
 }
 
 .jumbotron h1 {
+	opacity: 0;
 	font-style: italic;
 	font-weight: 900;
 	font-family: 'Playfair Display', serif;
@@ -34,6 +34,7 @@ body {
 }
 
 .jumbotron p {
+	opacity: 0;
 	font-size: 15px;
 	width: 73%;
 	text-align: right;
