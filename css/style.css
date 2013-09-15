@@ -16,13 +16,13 @@ body {
 	margin: 0px 0px 0px 35px;
 }
 
-.path-name, .topic {
+.topic {
 	cursor: pointer;
-	text-transform: uppercase;
+	color: #76BFE5;
 }
 
-.path-name:hover, .topic:hover {
-    color: #76BFE5;
+.topic:hover {
+    color: #777;
 }
 
 .jumbotron {
@@ -130,7 +130,7 @@ a:hover {
 }
 
 .active {
-	font-style: italic !important;
+	color: #777;
 }
 
 @media (max-width: 760px) {
