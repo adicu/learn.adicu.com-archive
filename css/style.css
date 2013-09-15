@@ -4,6 +4,8 @@ body {
 }
 .resources {
 	width: 85%;
+	margin-left: 10%;
+	display: none;
 }
 
 .resources li {
@@ -12,6 +14,15 @@ body {
 
 .path-topics {
 	margin: 0px 0px 0px 35px;
+}
+
+.path-name, .topic {
+	cursor: pointer;
+	text-transform: uppercase;
+}
+
+.path-name:hover, .topic:hover {
+    color: #76BFE5;
 }
 
 .jumbotron {
@@ -116,6 +127,10 @@ a:hover {
 	height: 35px;
 	width: 35px;
 	margin: 5px
+}
+
+.active {
+	font-style: italic !important;
 }
 
 @media (max-width: 760px) {
