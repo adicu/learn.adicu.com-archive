@@ -16,7 +16,7 @@ $(function () {
         zIndex: 2147483647 
     });
 
-	$('.jumbotron h1, .jumbotron p').delay(100).animate({ opacity: 1 }, 500);
+	$('.jumbotron h1, .jumbotron p').delay(100).animate({ opacity: 1 }, 800);
 
 	var xhr = $.get("resources.json");
 	xhr.done(function(data) { 
