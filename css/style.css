@@ -28,8 +28,17 @@ body {
     color: #777;
 }
 
-.topic img {
-    margin-left: 8px;
+.topic .arrow {
+    background: url('/img/nav-arrow.png');
+    height: 7px;
+    width: 14px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-bottom: 3px;
+}
+
+.active .arrow {
+    background-position: 14px;
 }
 
 .jumbotron {
