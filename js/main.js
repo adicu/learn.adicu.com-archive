@@ -1,7 +1,22 @@
 $(function () {
 
-	$('.jumbotron h1, .jumbotron p').delay(100).animate({ opacity: 1 }, 500);
+    $.scrollUp({
+        scrollName: 'scrollUp',
+        scrollDistance: 300,
+        scrollFrom: 'top', 
+        scrollSpeed: 300, 
+        easingType: 'linear', 
+        animation: 'fade', 
+        animationInSpeed: 200,
+        animationOutSpeed: 200, 
+        scrollText: 'Scroll to top',
+        scrollTitle: false, 
+        scrollImg: true, 
+        activeOverlay: false, 
+        zIndex: 2147483647 
+    });
 
+	$('.jumbotron h1, .jumbotron p').delay(100).animate({ opacity: 1 }, 500);
 
 	var xhr = $.get("resources.json");
 	xhr.done(function(data) { 
