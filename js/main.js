@@ -20,9 +20,7 @@ $(function () {
 
 	var xhr = $.get("resources.json");
 	xhr.done(function(data) { 
-        console.log("success got data", data);
         var html = ''; 
-        console.log(data.paths[0].name);
         for (var i = 0; i < data.paths.length; i++) {
            	html += '<h2 class="path-name">' + data.paths[i].name + '</h2>';
             html += '<div class="path-topics-wrapper">';
