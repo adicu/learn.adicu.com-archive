@@ -33,7 +33,7 @@ $(function () {
 
         html = '';
         for (var i = 0; i < data.topics.length; i++) {
-            html += '<h2 class="topic">' + data.topics[i].name + '</h2>';
+            html += '<h2 class="topic">' + data.topics[i].name + '<img src="/img/nav-arrow.png">' + '</h2>';
             html += '<div class="description">' + data.topics[i].description + '</div>';
             html += '<div class="resources">';
             for (var j = 0; j < data.topics[i].resources.length; j++) {

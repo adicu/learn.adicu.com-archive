@@ -28,6 +28,10 @@ body {
     color: #777;
 }
 
+.topic img {
+    margin-left: 8px;
+}
+
 .jumbotron {
     width: 100%;
     height: 450px;
