@@ -160,6 +160,11 @@
           "name": "AngularJS Learning",
           "url": "https://github.com/jmcunningham/AngularJS-Learning",
           "description": "A bunch of links to blog posts, articles, videos, etc. for learning AngularJS."
+        },
+        {
+          "name": "ADI Schedule Builder",
+          "url": "http://courses.adicu.com",
+          "description": "ADIs tool for planning your semester's courses. Built on AngularJS."
         }
       ]
     },
@@ -308,7 +313,7 @@
         },
         {
           "name": "GitHub Pages",
-          "url": "http://pages.github.com/",
+          "url": "http://pages.github.com",
           "description": "If you're using GitHub, this is a really easy way to publish a project page."
         },
         {
