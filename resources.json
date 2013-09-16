@@ -180,7 +180,7 @@
       "resources": [
         {
           "name": "CoffeeScript",
-          "url": "http://www.coffeescript.org/",
+          "url": "http://www.coffeescript.org",
           "description": "CoffeeScript homepage. Side-by-side comparison with JavaScript."
         }
       ]
@@ -191,7 +191,7 @@
       "resources": [
         {
           "name": "Learn Python the Hard Way",
-          "url": "http://learnpythonthehardway.org/",
+          "url": "http://learnpythonthehardway.org",
           "description": "Learn Python the Hard Way is a book (available for free here) for people who do not have experience programming, and it will teach you to program while teaching you Python."
         },
         {
@@ -201,7 +201,7 @@
         },
         {
           "name": "Dive into Python",
-          "url": "http://www.diveintopython.net/",
+          "url": "http://www.diveintopython.net",
           "description": "Dive into Python is a book about Python for people who already know how to program in another language."
         }
       ]
@@ -212,7 +212,7 @@
       "resources": [
         {
           "name": "Flask",
-          "url": "http://flask.pocoo.org/",
+          "url": "http://flask.pocoo.org",
           "description": "The Flask homepage. Gives a quick introduction, and the docs are really good."
         }
       ]
@@ -223,7 +223,7 @@
       "resources": [
         {
           "name": "Django",
-          "url": "https://www.djangoproject.com/",
+          "url": "https://www.djangoproject.com",
           "description": "The Django homepage. Has more information "
         }
       ]
@@ -239,17 +239,17 @@
         },
         {
           "name": "Why's (Poignant) Guide to Ruby",
-          "url": "http://mislav.uniqpath.com/poignant-guide/",
+          "url": "http://mislav.uniqpath.com/poignant-guide",
           "description": "Part tutorial, part comic book, part really bizarre art, Why's (Poignant) Guide to Ruby is considered a classic way to learn the language."
         },
         {
           "name": "Ruby User's Guide",
-          "url": "http://www.rubyist.net/~slagell/ruby/",
+          "url": "http://www.rubyist.net/~slagell/ruby",
           "description": "Another, more traditional way to learn Ruby. Try this if Why's isn't your style."
         },
         {
           "name": "Official Ruby Documentation",
-          "url": "https://www.ruby-lang.org/en/",
+          "url": "https://www.ruby-lang.org/en",
           "description": "Official source of information about the Ruby language."
         }
       ]
@@ -271,7 +271,7 @@
       "resources": [
         {
           "name": "Sinatra",
-          "url": "http://www.sinatrarb.com/",
+          "url": "http://www.sinatrarb.com",
           "description": "Official Sinatra homepage. Get started here."
         }
       ]
@@ -282,7 +282,7 @@
       "resources": [
         {
           "name": "Try Git",
-          "url": "http://try.github.io/",
+          "url": "http://try.github.io",
           "description": "A really awesome in-browser tutorial/game that lets you get a feel for what git is like, interactively."
         },
         {
@@ -292,7 +292,7 @@
         },
         {
           "name": "GitHub",
-          "url": "http://www.github.com/",
+          "url": "http://www.github.com",
           "description": "GitHub is a website that hosts git repositories. It lets you store a shared copy of code that you're working on with someone else, as well as see others' code and contribute to open source projects."
         }
       ]
@@ -302,14 +302,77 @@
       "description": "In order for your project to be out on the internet, you need to get it hosted. Here are a bunch of options to do that.",
       "resources": [
         {
+          "name": "Neocities",
+          "url": "https://neocities.org",
+          "description": "This site was created to let beginners host websites with static content."
+        },
+        {
+          "name": "Parse",
+          "url": "http://www.parse.com",
+          "description": "Parse is a cloud app platform with free tiers. Great place to host apps."
+        },
+        {
           "name": "Heroku",
-          "url": "http://www.heroku.com/",
+          "url": "http://www.heroku.com",
           "description": "Heroku is a Platform as a Service (PaaS) provider, which means that they host your apps for you without you having to manage any computers, virtual or otherwise."
         },
         {
           "name": "Amazon Web Services",
-          "url": "http://aws.amazon.com/",
+          "url": "http://aws.amazon.com",
           "description": "Amazon Web Services (AWS) is a cloud hosting provider that has a bunch of cloud options, the easiest of which is Elastic Cloud Compute (EC2). EC2 just gives you a virtual machine in one of their data centers that you control completely, so it's a very flexible option."
+        }
+      ]
+    },
+    {
+      "name": "Java",
+      "description": "Java is an object oriented language, and the most widely used language in the world. It is compiled down to Java byte code, and then run on a Java Virtual Machine. Because JVMs have been made for many different platforms, people often say of Java, \"Write once, run anywhere.\". Java is great language if you want to program for Android or program scalable systems (both big and small companies use Java, but it's not a usual choice for prototyping). We'll probably have a hard time teaching you Java online, so these resources are more advanced.",
+      "resources": [
+        {
+          "name": "Effective Java",
+          "url": "http://www.amazon.com/Effective-Java-Edition-Joshua-Bloch/dp/0321356683",
+          "description": "Assumes you already know Java, and teaches you how to write really good Java."
+        },
+        {
+          "name": "Java Concurrency in Practice",
+          "url": "http://www.amazon.com/Java-Concurrency-Practice-Brian-Goetz/dp/0321349601",
+          "description": "Java has a battlehardened concurrency library that is very basic and widely imitated. This is the standard book on Java concurrency."
+        }
+      ]
+    },
+    {
+      "name": "Android SDK",
+      "description": "The Android SDK is the library that lets you write programs that run on Android.",
+      "resources": [
+        {
+          "name": "Android Developer Reference",
+          "url": "https://developer.android.com/develop/index.html",
+          "description": "Portal for all things Android development: references, tools, news."
+        }
+      ]
+    },
+    {
+      "name": "Scala",
+      "description": "A powerful and flexible programming language, useful for tackling hard problems.",
+      "resources": [
+        {
+          "name": "Try Scala",
+          "url": "http://www.tryscala.com",
+          "description": "An interactive Scala demo. Try it out and try not to get hooked."
+        },
+        {
+          "name": "Scala School",
+          "url": "http://twitter.github.io/scala_school",
+          "description": "How Twitter ramps up their engineers (with Java experience) on Scala."
+        },
+        {
+          "name": "Programming in Scala",
+          "url": "http://www.amazon.com/Programming-Scala-Comprehensive-Step-Step/dp/0981531644",
+          "description": "Written by one of the authors of Scala, this is the definitive guide to the language."
+        },
+        {
+          "name": "Effective Scala",
+          "url": "http://twitter.github.io/effectivescala",
+          "description": "Twitter Scala style guide."
         }
       ]
     }
@@ -317,11 +380,19 @@
   "paths": [
     {
       "name": "Web Site (beginner)",
-      "topics": [ "HTML", "CSS" ]
+      "topics": ["HTML", "CSS", "Hosting"]
     },
     {
       "name": "Web Site (intermediate)",
-      "topics": [ "HTML", "CSS", "JavaScript", "jQuery", "Bootstrap", "Foundation"]
+      "topics": ["HTML", "CSS", "Hosting", "JavaScript", "jQuery", "Bootstrap", "Foundation"]
+    },
+    {
+      "name": "Web App",
+      "topics": ["Python", "Flask", "HTML", "CSS", "JavaScript", "Hosting", "Git"]
+    },
+    {
+      "name": "Android",
+      "topics": ["Java", "Android SDK"]
     }
   ]
 }
