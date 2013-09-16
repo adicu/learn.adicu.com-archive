@@ -304,7 +304,12 @@
         {
           "name": "Neocities",
           "url": "https://neocities.org",
-          "description": "This site was created to let beginners host websites with static content."
+          "description": "This site was created to let beginners host websites with static content. Start here if you're just trying to get a web page online!"
+        },
+        {
+          "name": "GitHub Pages",
+          "url": "http://pages.github.com/",
+          "description": "If you're using GitHub, this is a really easy way to publish a project page."
         },
         {
           "name": "Parse",
