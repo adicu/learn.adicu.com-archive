@@ -2,7 +2,7 @@
   "topics": [
     {
       "name": "HTML",
-      "description": "Dictates the structure and contents of every web page on the internet",
+      "description": "Dictates the structure and contents of every web page on the internet. Lets you put text and images on a web page; if you want to make a web site, start here.",
       "resources": [
         {
           "name": "HTML Dog",
@@ -33,7 +33,7 @@
     },
     {
       "name": "CSS",
-      "description": "The code that styles HTML: dictates look, layout, and general presentation.",
+      "description": "The code that styles HTML: dictates look, layout, and general presentation. Once you've laid out your content using HTML, use CSS to make it look good.",
       "resources": [
         {
           "name": "HTML Dog",
@@ -49,7 +49,7 @@
     },
     {
       "name": "CSS Preprocessors",
-      "description": "Once you've got the hang of CSS, CSS preprocessors allow you to write CSS using more powerful features, such as variables, functions, and “mixins.” After development, these files get compiled into regular CSS that all web browsers can understand.",
+      "description": "Once you've got the hang of CSS, CSS preprocessors allow you to write CSS using more powerful features, such as variables, functions, and “mixins.” After development, these files get compiled into regular CSS that all web browsers can understand. Makes CSS easier.",
       "resources": [
         {
           "name": "Sass",
@@ -75,7 +75,7 @@
     },
     {
       "name": "JavaScript",
-      "description": "The programming language of the web. If you want your web site/app to move, change, or communicate, learn JavaScrpit.",
+      "description": "The programming language of the web. If you want your web site/app to move, change, or communicate, learn JavaScript.",
       "resources": [
         {
           "name": "Eloquent JavaScript",
@@ -86,7 +86,7 @@
     },
     {
       "name": "jQuery",
-      "description": "A popular (used on more than half of the 10,000 most popular websites) JavaScript library that greatly simplifies client-side scripting. Write less, do more.",
+      "description": "A popular (used on more than half of the 10,000 most popular websites) JavaScript library that greatly simplifies client-side scripting. Write less, do more. If you use JavaScript, jQuery will give you cool features and make your life easier.",
       "resources": [
         {
           "name": "jQuery",
@@ -107,7 +107,7 @@
     },
     {
       "name": "Bootstrap",
-      "description": "Twitter's front-end UI framework which packages up a bunch of useful CSS and JavaScript tools. Great for making web sites quickly. It's \"responsive\", so your site will look good on screens of all sizes (desktop, tablet, mobile).",
+      "description": "Twitter's front-end UI framework which packages up a bunch of useful CSS and JavaScript tools. Great for making web sites that look pretty good (if a little generic) quickly. It's \"responsive\", so your site will look good on screens of all sizes (desktop, tablet, mobile).",
       "resources": [
         {
           "name": "Bootstrap",
@@ -128,7 +128,7 @@
     },
     {
       "name": "Foundation",
-      "description": "A front-end UI framework similar to Bootstrap. Looks a little different. It's \"responsive\", so your site will look good on screens of all sizes (desktop, tablet, mobile).",
+      "description": "A front-end UI framework similar to Bootstrap. Looks a little different. Great for getting a site up and running quickly. It's \"responsive\", so your site will look good on screens of all sizes (desktop, tablet, mobile).",
       "resources": [
         {
           "name": "Foundation",
@@ -139,7 +139,7 @@
     },
     {
       "name": "AngularJS",
-      "description": "A front-end framework for building maintainable one-page applications. Lets you \"extend\" HTML for dynamic applications.",
+      "description": "A front-end framework for building maintainable one-page applications. Lets you \"extend\" HTML for dynamic applications. If you have enough JavaScript going on that things are starting to get complicated, look into Angular.",
       "resources": [
         {
           "name": "Introduction to AngularJS",
@@ -165,7 +165,7 @@
     },
     {
       "name": "Backbone.js",
-      "description": "An MVC framework for frontend JavaScript. Backbone.js gives structure to web applications by providing models with key-value binding and custom events, collections with a rich API of enumerable functions, views with declarative event handling, and connects it all to your existing API over a RESTful JSON interface.",
+      "description": "An MVC framework for frontend JavaScript. Backbone.js gives structure to web applications. If you have enough JavaScript going on that things are starting to get complicated, look into Backbone. ",
       "resources": [
         {
           "name": "Backbone.js",
@@ -176,7 +176,7 @@
     },
     {
       "name": "CoffeeScript",
-      "description": "A frontend language meant to solve the various problems/warts in JavaScript. Syntax inspired by Ruby.",
+      "description": "A frontend language meant to solve the various problems/warts in JavaScript. Syntax inspired by Ruby. If you don't like JavaScript syntax but ant to code for the browser, check out CoffeeScript.",
       "resources": [
         {
           "name": "CoffeeScript",
@@ -187,7 +187,7 @@
     },
     {
       "name": "Python",
-      "description": "A general-purpose, high-level programming language focused on clarity and readability. Often used to write the backend for web applications. A great first language.",
+      "description": "A general-purpose, high-level programming language focused on clarity and readability. Often used to write the backend for web applications. A great first programming language.",
       "resources": [
         {
           "name": "Learn Python the Hard Way",
@@ -208,7 +208,7 @@
     },
     {
       "name": "Flask",
-      "description": "A simple and lightweight web framework for Python that allows you to quickly develop web applications. This is the easiest way to get going with a simple web app.",
+      "description": "A simple and lightweight web framework for Python that allows you to quickly develop web applications. This is the easiest way to get going with a simple web app. If you want to extend your web site to have changing, dynamic content, Flask is a great place to start.",
       "resources": [
         {
           "name": "Flask",
