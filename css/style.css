@@ -2,13 +2,16 @@ body {
     font-family: "Open Sans", sans-serif;
     background: #F8F8F8;
 }
+.topic-content {
+    display: none;
+}
+
 .resources {
     width: 85%;
     background: #f3f3f3;
     padding: 5px 25px 20px 25px;
     margin: 10px;
     border-radius: 10px;
-    display: none;
 }
 
 .resources li {

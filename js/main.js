@@ -34,13 +34,14 @@ $(function () {
         html = '';
         for (var i = 0; i < data.topics.length; i++) {
             html += '<h2 class="topic">' + data.topics[i].name + '<div class="arrow"></div>' + '</h2>';
+            html += '<div class="topic-content">';
             html += '<div class="description">' + data.topics[i].description + '</div>';
             html += '<div class="resources">';
             for (var j = 0; j < data.topics[i].resources.length; j++) {
                 html += '<li><a target="_blank" href=' + data.topics[i].resources[j].url + '>' 
                 + data.topics[i].resources[j].name + '</a> &#8212; ' +  data.topics[i].resources[j].description + '</li>';
             }
-            html += '</div>';
+            html += '</div></div>';
         }
         $('.topics').append(html);
 
@@ -48,11 +49,11 @@ $(function () {
             var topic = $(event.currentTarget);
             if (! topic.hasClass('active')){
                 topic.addClass('active');
-                topic.next('.description').next('.resources').slideDown("slow");
+                topic.next('.topic-content').slideDown("slow");
             } 
             else if (topic.hasClass('active')){
                 topic.removeClass('active');
-                topic.next('.description').next('.resources').slideUp("slow");
+                topic.next('.topic-content').slideUp("slow");
             }  
         });
     }); 
