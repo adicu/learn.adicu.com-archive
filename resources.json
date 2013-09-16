@@ -175,13 +175,141 @@
       ]
     },
     {
-      "name": "Coffeescript",
+      "name": "CoffeeScript",
       "description": "A frontend language meant to solve the various problems/warts in JavaScript. Syntax inspired by Ruby.",
       "resources": [
         {
-          "name": "Coffeescript",
-          "url": "http://www.coffeescript.org",
-          "description": "Coffeescript homepage. Side-by-side comparison with JavaScript."
+          "name": "CoffeeScript",
+          "url": "http://www.coffeescript.org/",
+          "description": "CoffeeScript homepage. Side-by-side comparison with JavaScript."
+        }
+      ]
+    },
+    {
+      "name": "Python",
+      "description": "A general-purpose, high-level programming language focused on clarity and readability. Often used to write the backend for web applications. A great first language.",
+      "resources": [
+        {
+          "name": "Learn Python the Hard Way",
+          "url": "http://learnpythonthehardway.org/",
+          "description": "Learn Python the Hard Way is a book (available for free here) for people who do not have experience programming, and it will teach you to program while teaching you Python."
+        },
+        {
+          "name": "Codecademy Python Track",
+          "url": "http://www.codecademy.com/tracks/python",
+          "description": "Interactive, online tutorial to learn to program Python. No experience necessary."
+        },
+        {
+          "name": "Dive into Python",
+          "url": "http://www.diveintopython.net/",
+          "description": "Dive into Python is a book about Python for people who already know how to program in another language."
+        }
+      ]
+    },
+    {
+      "name": "Flask",
+      "description": "A simple and lightweight web framework for Python that allows you to quickly develop web applications. This is the easiest way to get going with a simple web app.",
+      "resources": [
+        {
+          "name": "Flask",
+          "url": "http://flask.pocoo.org/",
+          "description": "The Flask homepage. Gives a quick introduction, and the docs are really good."
+        }
+      ]
+    },
+    {
+      "name": "Django",
+      "description": "A one-stop MVC web framework for Python that brings together all the bits you need to develop a web application. It's a lot heavier than Flask, but might be better for more complicated apps.",
+      "resources": [
+        {
+          "name": "Django",
+          "url": "https://www.djangoproject.com/",
+          "description": "The Django homepage. Has more information "
+        }
+      ]
+    },
+    {
+      "name": "Ruby",
+      "description": "A general-purpose, high-level programming language focused on clarity and readability. Often used to write the backend for web applications. Similar to Python, but most people prefer one to the other (ADI right now uses more Python).",
+      "resources": [
+        {
+          "name": "Codecademy Ruby Track",
+          "url": "http://www.codecademy.com/tracks/ruby",
+          "description": "Interactive, online tutorial to learn to program Ruby. No experience necessary."
+        },
+        {
+          "name": "Why's (Poignant) Guide to Ruby",
+          "url": "http://mislav.uniqpath.com/poignant-guide/",
+          "description": "Part tutorial, part comic book, part really bizarre art, Why's (Poignant) Guide to Ruby is considered a classic way to learn the language."
+        },
+        {
+          "name": "Ruby User's Guide",
+          "url": "http://www.rubyist.net/~slagell/ruby/",
+          "description": "Another, more traditional way to learn Ruby. Try this if Why's isn't your style."
+        },
+        {
+          "name": "Official Ruby Documentation",
+          "url": "https://www.ruby-lang.org/en/",
+          "description": "Official source of information about the Ruby language."
+        }
+      ]
+    },
+    {
+      "name": "Ruby on Rails",
+      "description": "Ruby on Rails is a model-view-controller framework for building web applications with Ruby. As such, it touches all parts of the stack, from running a web server to rendering front-end templates. A really popular framework for web apps.",
+      "resources": [
+        {
+          "name": "Official Ruby on Rails Tutorial",
+          "url": "http://ruby.railstutorial.org/ruby-on-rails-tutorial-book",
+          "description": "This tutorial will walk you through building your first app with Ruby on Rails."
+        }
+      ]
+    },
+    {
+      "name": "Sinatra",
+      "description": "A simple Ruby web framework, lighter than Ruby on Rails. Flask is inspired by this, so they're good analogues.",
+      "resources": [
+        {
+          "name": "Sinatra",
+          "url": "http://www.sinatrarb.com/",
+          "description": "Official Sinatra homepage. Get started here."
+        }
+      ]
+    },
+    {
+      "name": "Git",
+      "description": "Git is a Version Control System (VCS), which lets you track changes to code over time and collaborate with others. A VCS is critical to working on any medium-to-large application, and really helpful when working on a project with someone else.",
+      "resources": [
+        {
+          "name": "Try Git",
+          "url": "http://try.github.io/",
+          "description": "A really awesome in-browser tutorial/game that lets you get a feel for what git is like, interactively."
+        },
+        {
+          "name": "Pro Git",
+          "url": "http://git-scm.com/book",
+          "description": "Pro Git, available freely on the git website, is an excellent book covering all aspects of git, including use and inner workings. A must-read to fully understand git."
+        },
+        {
+          "name": "GitHub",
+          "url": "http://www.github.com/",
+          "description": "GitHub is a website that hosts git repositories. It lets you store a shared copy of code that you're working on with someone else, as well as see others' code and contribute to open source projects."
+        }
+      ]
+    },
+    {
+      "name": "Hosting",
+      "description": "In order for your project to be out on the internet, you need to get it hosted. Here are a bunch of options to do that.",
+      "resources": [
+        {
+          "name": "Heroku",
+          "url": "http://www.heroku.com/",
+          "description": "Heroku is a Platform as a Service (PaaS) provider, which means that they host your apps for you without you having to manage any computers, virtual or otherwise."
+        },
+        {
+          "name": "Amazon Web Services",
+          "url": "http://aws.amazon.com/",
+          "description": "Amazon Web Services (AWS) is a cloud hosting provider that has a bunch of cloud options, the easiest of which is Elastic Cloud Compute (EC2). EC2 just gives you a virtual machine in one of their data centers that you control completely, so it's a very flexible option."
         }
       ]
     }
