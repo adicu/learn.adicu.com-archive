@@ -28,6 +28,11 @@
           "name": "HTML5 Boilerplate",
           "url": "http://html5boilerplate.com",
           "description": "The web's most popular front-end template. Starting a new project? Hit the ground running with HTML5 Boilerplate."
+        },
+        {
+          "name": "Codecademy Web Fundamentals Track",
+          "url": "http://www.codecademy.com/tracks/web",
+          "description": "Interactive, online tutorial to learn to HTML and CSS. No experience necessary, and gret for learning HTML and CSS together."
         }
       ]
     },
@@ -44,6 +49,11 @@
           "name": "Mozilla Developer Network",
           "url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
           "description": "Extensive reference by the organization behind Firefox. If you need any property of CSS explained to you very clearly or in detail, look here."
+        },
+        {
+          "name": "Codecademy Web Fundamentals Track",
+          "url": "http://www.codecademy.com/tracks/web",
+          "description": "Interactive, online tutorial to learn to HTML and CSS. No experience necessary, and gret for learning HTML and CSS together."
         }
       ]
     },
@@ -81,6 +91,11 @@
           "name": "Eloquent JavaScript",
           "url": "http://eloquentjavascript.net/contents.html",
           "description": "Eloquent JavaScript is designed for people without any programming experience, and will teach you how to program while also teaching you the ins and outs of JavaScript."
+        },
+        {
+          "name": "Codecademy JavaScript Track",
+          "url": "http://www.codecademy.com/tracks/javascript",
+          "description": "Interactive, online tutorial to learn to JavaScript. Best taken after Codecademy's Web Fundamentals track."
         }
       ]
     },
@@ -102,6 +117,11 @@
           "name": "Unheap",
           "url": "http://www.unheap.com",
           "description": "Unheap is an aggregation of open-source jQuery plugins (meaning they’re free to use!), which allow you to do some amazing things like animated image galleries and scroll to refresh."
+        },
+        {
+          "name": "Codecademy jQuery Track",
+          "url": "http://www.codecademy.com/tracks/jquery",
+          "description": "Interactive, online tutorial to learn to jQuery. Best after taking the Javascript track."
         }
       ]
     },
@@ -385,6 +405,38 @@
           "description": "Twitter Scala style guide."
         }
       ]
+    },
+    {
+      "name": "Objective-C",
+      "description": "A superset of C, Objective-C is the language that iOS and Mac apps are written in.",
+      "resources": [
+        {
+          "name": "Big Nerd Ranch Objective-C Programming Guide",
+          "url": "http://www.bignerdranch.com/book/objective-c_programming_the_big_nerd_ranch_guide",
+          "description": "A great book that walks beginners through the basics of Objective-C.  A great buy."
+        },
+        {
+          "name": "NSHipster",
+          "url": "http://nshipster.com/",
+          "description": "NSHipster is a blog that has great explanations for some of the quirks and \"overlooked bits\" of Objective-C and Cocoa."
+        }
+      ]
+    },
+    {
+      "name": "iOS",
+      "description": "Learn to build an iOS application by learning to code in Objective-C.",
+      "resources": [
+        {
+          "name": "Big Nerd Ranch iOS Programming Guide",
+          "url": "http://www.bignerdranch.com/book/ios_programming_the_big_nerd_ranch_guide_rd_edition_",
+          "description": "A great book that walks beginners through the basics of iOS.  Best after the Big Nerd Ranch Objective-C book."
+        },
+        {
+          "name": "NSHipster",
+          "url": "http://nshipster.com/",
+          "description": "NSHipster is a blog that has great explanations for some of the quirks and \"overlooked bits\" of Objective-C and Cocoa."
+        }
+      ]
     }
   ],
   "paths": [
@@ -403,6 +455,10 @@
     {
       "name": "Android",
       "topics": ["Java", "Android SDK"]
+    }
+    {
+      "name": "iOS",
+      "topics": ["Objective-C", "iOS"]
     }
   ]
 }
