@@ -455,7 +455,7 @@
     {
       "name": "Android",
       "topics": ["Java", "Android SDK"]
-    }
+    },
     {
       "name": "iOS",
       "topics": ["Objective-C", "iOS"]
