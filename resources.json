@@ -417,7 +417,7 @@
         },
         {
           "name": "NSHipster",
-          "url": "http://nshipster.com/",
+          "url": "http://nshipster.com",
           "description": "NSHipster is a blog that has great explanations for some of the quirks and \"overlooked bits\" of Objective-C and Cocoa."
         }
       ]
@@ -433,7 +433,7 @@
         },
         {
           "name": "NSHipster",
-          "url": "http://nshipster.com/",
+          "url": "http://nshipster.com",
           "description": "NSHipster is a blog that has great explanations for some of the quirks and \"overlooked bits\" of Objective-C and Cocoa."
         }
       ]
