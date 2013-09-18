@@ -24,6 +24,7 @@ $(function () {
         html += '<div class="path-wrapper">'
         for (var i = 0; i < data.paths.length; i++) {
             html += '<h2 class="path-name">' + data.paths[i].name + '</h2>';
+            html += '<div class="description">' + data.paths[i].description + '</div>';
             html += '<div class="path-topics-wrapper">';
             for (var j = 0; j < data.paths[i].topics.length; j++) {
                 var id = data.paths[i].topics[j].replace(".", "").replace(" ","").toLowerCase();
