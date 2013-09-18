@@ -21,19 +21,23 @@ $(function () {
     var xhr = $.get("resources.json");
     xhr.done(function(data) { 
         var html = ''; 
+        html += '<div class="path-wrapper">'
         for (var i = 0; i < data.paths.length; i++) {
             html += '<h2 class="path-name">' + data.paths[i].name + '</h2>';
             html += '<div class="path-topics-wrapper">';
             for (var j = 0; j < data.paths[i].topics.length; j++) {
-                html += '<div class="path-topics">' + data.paths[i].topics[j] + '</div>';
+                var id = data.paths[i].topics[j].replace(".", "").replace(" ","").toLowerCase();
+                html += '<a class="path-topics" href="' + id + '">' + data.paths[i].topics[j] + '</a>';
             }
             html += '</div>';
         }
+        html += '</div>'
         $('.paths').append(html);
 
         html = '';
         for (var i = 0; i < data.topics.length; i++) {
-            html += '<h2 class="topic">' + data.topics[i].name + '<div class="arrow"></div>' + '</h2>';
+            var id = data.topics[i].name.replace(".", "").replace(" ","").toLowerCase(); 
+            html += '<h2 id="' + id + '" class="topic">' + data.topics[i].name + '<div class="arrow"></div>' + '</h2>';
             html += '<div class="topic-content">';
             html += '<div class="description">' + data.topics[i].description + '</div>';
             html += '<div class="resources">';
@@ -55,6 +59,31 @@ $(function () {
                 topic.removeClass('active');
                 topic.next('.topic-content').slideUp("slow");
             }  
+        });
+
+        function scrollToElement(selector, time, verticalOffset, completion) {
+            console.log("selector:", selector)
+            time = typeof(time) != 'undefined' ? time : 1000;
+            verticalOffset = typeof(verticalOffset) != 'undefined' ? verticalOffset : 0;
+            element = $(selector);
+            offset = element.offset();
+            offsetTop = offset.top + verticalOffset;
+            $('html, body').animate({
+                scrollTop: offsetTop
+            }, time, completion);
+        };
+
+        $('.path-topics').on('click', function(event){
+            event.preventDefault();
+            console.log("target: ", $(this), $(this).attr("href"));
+            var topic = '#' + $(this).attr("href");
+            scrollToElement(topic, 500, 0, function(){
+                if (! $(topic).hasClass('active')){
+                    $(topic).addClass('active');
+                    $(topic).next('.topic-content').slideDown("slow");
+                } 
+            });
+
         });
     }); 
     
