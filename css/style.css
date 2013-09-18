@@ -10,8 +10,20 @@ body {
    margin-bottom: 15px;
 }
 
-.path-name {
+.path-name, .tips h2 {
     margin-bottom: 10px;
+}
+
+.do {
+    padding: 1px 20px;
+    background: #D5FFD5;
+    border-radius: 10px;
+}
+
+.do-not {
+    padding: 1px 20px;
+    background: #FFF0F0;
+    border-radius: 10px; 
 }
 
 .resources {
