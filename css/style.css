@@ -20,6 +20,7 @@ body {
 
 .path-topics {
     margin: 0px 0px 0px 35px;
+    display: block;
 }
 
 .topic {
