@@ -6,6 +6,14 @@ body {
     display: none;
 }
 
+.path-wrapper .description {
+   margin-bottom: 15px;
+}
+
+.path-name {
+    margin-bottom: 10px;
+}
+
 .resources {
     width: 85%;
     background: #f3f3f3;
