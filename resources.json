@@ -442,22 +442,27 @@
   "paths": [
     {
       "name": "Web Site (beginner)",
+      "description": "This is the most basic track, best for beginners who are looking to build their first website.",
       "topics": ["HTML", "CSS", "Hosting"]
     },
     {
       "name": "Web Site (intermediate)",
+      "description": "For a professional looking personal page or web site.",
       "topics": ["HTML", "CSS", "Hosting", "JavaScript", "jQuery", "Bootstrap", "Foundation"]
     },
     {
       "name": "Web App",
+      "description": "For building a dynamic web application.  Adding Python and Flask to traditional web technologies allows for creating user accounts and/or storing data in a database.",
       "topics": ["Python", "Flask", "HTML", "CSS", "JavaScript", "Hosting", "Git"]
     },
     {
       "name": "Android",
+      "description": "Learn to build an app on Google's mobile operating system.",
       "topics": ["Java", "Android SDK"]
     },
     {
       "name": "iOS",
+      "description": "Build a app for iPhone and iPad.",
       "topics": ["Objective-C", "iOS"]
     }
   ]
