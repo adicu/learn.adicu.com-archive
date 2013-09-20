@@ -2,12 +2,24 @@ body {
     font-family: "Open Sans", sans-serif;
     background: #F8F8F8;
 }
-.topic-content > * {
-    display: none;
+
+.topic-content {
+    max-height: 0;
+    overflow: hidden;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
 }
 
-.topic-content.active > * {
-    display: block;
+.topic-content.active {
+    max-height: 99999px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
 }
 
 .path-wrapper .description {

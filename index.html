@@ -134,12 +134,12 @@
                 </h2>
 
                 <div class="topic-content" ng-class="{
-                    'animated fadeInDown active': topic.active,
-                    'animated fadeOutUp': !topic.active
+                    'animated bounceIn active': topic.active,
+                    'animated bounceOut': !topic.active
                     }">
                     <div class="description">{{ topic.description }}</div>
                     <div class="resources">
-                        <li ng-repeat="resource in resources">
+                        <li ng-repeat="resource in topic.resources">
                         <a target="_blank" ng-href="{{ resource.url }}">
                             {{ resource.name }}</a> &#8212; {{ resource.description }}
                         </li>
@@ -158,11 +158,10 @@
             <p><a href="mailto:workshops@adicu.com?subject=[learn.adicu.com] Topic Suggestion">Suggest a topic</a> | <a href="mailto:workshops@adicu.com?subject=[learn.adicu.com] Resource Submission">Submit a Resource</a></p>
         </div>
 
-        <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
-        <!-- <script>window.jQuery || document.write('<script src="js/vendor/jquery&#45;1.10.2.min.js"><\/script>')</script> -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
         <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.0-rc.2/angular.min.js"></script>
-        <script
-            src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.0-rc.2/angular-animate.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.0-rc.2/angular-animate.min.js"></script>
         <script src="js/app.js"></script>
         <!-- <script src="js/plugins.js"></script> -->
         <!-- <script src="js/main.js"></script> -->
