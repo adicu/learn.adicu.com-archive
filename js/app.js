@@ -27,7 +27,7 @@ angular.module('learnApp', ['ngAnimate'])
         }, 100);
 
         $scope.scrollToElement = function(selector, time, verticalOffset) {
-            var promise = $q.defer();
+            var deferred = $q.defer();
             time = typeof(time) != 'undefined' ? time : 1000;
             verticalOffset = typeof(verticalOffset) != 'undefined' ? verticalOffset : 0;
             var element = $(selector);
@@ -36,10 +36,10 @@ angular.module('learnApp', ['ngAnimate'])
             $('html, body').animate({
                 scrollTop: offsetTop
             }, time, function() {
-                promise.resolve();
+                deferred.resolve();
             });
 
-            return promise.promise;
+            return deferred.promise;
         };
 
         $scope.activateTopic = function(topic) {
