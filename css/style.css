@@ -2,8 +2,12 @@ body {
     font-family: "Open Sans", sans-serif;
     background: #F8F8F8;
 }
-.topic-content {
+.topic-content > * {
     display: none;
+}
+
+.topic-content.active > * {
+    display: block;
 }
 
 .path-wrapper .description {
@@ -74,6 +78,7 @@ body {
 }
 
 .jumbotron h1 {
+    display: hidden;
     opacity: 0;
     font-style: italic;
     font-weight: 900;
@@ -85,6 +90,7 @@ body {
 }
 
 .jumbotron p {
+    display: hidden;
     opacity: 0;
     font-size: 15px;
     width: 73%;

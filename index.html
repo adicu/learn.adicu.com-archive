@@ -17,20 +17,27 @@
         <link href='http://fonts.googleapis.com/css?family=Playfair+Display:900italic' rel='stylesheet' type='text/css'>
 
         <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/animate.min.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/image.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
-    <body>
+    <body ng-app="learnApp" ng-controller="BaseCtrl">
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
         <!-- Add your site or application content here -->
         <div class='jumbotron'>
-            <h1>Resources</h1>
-            <p>Brought to you by <a target='_blank' href='http://adicu.com'><img src='/img/logo.png'></a></p>
+            <h1 ng-class='{
+                "animated fadeIn": animations.showJumbotron,
+                "animated hidden": !animations.showJumbotron
+                }'>Resources</h1>
+            <p ng-class='{
+                "animated fadeIn": animations.showJumbotron,
+                "animated hidden": !animations.showJumbotron
+            }'>Brought to you by <a target='_blank' href='http://adicu.com'><img src='/img/logo.png'></a></p>
         </div>
         <div class='main-content'>
             <h1>ADI Resources Page</h1>
@@ -103,11 +110,43 @@
             <h1>Paths</h1>
 
             <div class='paths'>
+                <div class="path-wrapper" ng-repeat="pathobj in paths">
+                    <h2 class="path-name">{{ pathobj.name }}</h2>
+                    <div class="description">{{ pathobj.description }}</h2>
+                    <div class="path-topics-wrapper">
+                        <a class="path-topics"
+                            ng-repeat="topic in pathobj.topics"
+                            ng-click="activateTopic(topic)">
+                            {{ topic }}
+                        </a>
+                    </div>
+                </div>
             </div>
 
             <h1>Technologies</h1>
 
             <div class='topics'>
+                <section ng-repeat="topic in topics">
+                <h2 id="{{ topics.topicIds[topic.name] }}"
+                    class="topic"
+                    ng-click="topic.active = !topic.active">
+                    {{ topic.name }} <div class="arrow"></div>
+                </h2>
+
+                <div class="topic-content" ng-class="{
+                    'animated fadeInDown active': topic.active,
+                    'animated fadeOutUp': !topic.active
+                    }">
+                    <div class="description">{{ topic.description }}</div>
+                    <div class="resources">
+                        <li ng-repeat="resource in resources">
+                        <a target="_blank" ng-href="{{ resource.url }}">
+                            {{ resource.name }}</a> &#8212; {{ resource.description }}
+                        </li>
+                    </div>
+                </div>
+
+                </section>
             </div>
         </div>
         <div class='footer'>
@@ -119,11 +158,15 @@
             <p><a href="mailto:workshops@adicu.com?subject=[learn.adicu.com] Topic Suggestion">Suggest a topic</a> | <a href="mailto:workshops@adicu.com?subject=[learn.adicu.com] Resource Submission">Submit a Resource</a></p>
         </div>
 
-        <script src="js/jquery-1.10.2.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
-        <script src='js/jquery.scrollUp.min.js'></script>
+        <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
+        <!-- <script>window.jQuery || document.write('<script src="js/vendor/jquery&#45;1.10.2.min.js"><\/script>')</script> -->
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.0-rc.2/angular.min.js"></script>
+        <script
+            src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.0-rc.2/angular-animate.min.js"></script>
+        <script src="js/app.js"></script>
+        <!-- <script src="js/plugins.js"></script> -->
+        <!-- <script src="js/main.js"></script> -->
+        <!-- <script src='js/jquery.scrollUp.min.js'></script> -->
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
