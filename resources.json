@@ -201,7 +201,7 @@
     },
     {
       "name": "CoffeeScript",
-      "description": "A frontend language meant to solve the various problems/warts in JavaScript. Syntax inspired by Ruby. If you don't like JavaScript syntax but ant to code for the browser, check out CoffeeScript.",
+      "description": "A frontend language meant to solve the various problems/warts in JavaScript. Syntax inspired by Ruby. If you don't like JavaScript syntax but want to code for the browser, check out CoffeeScript.",
       "resources": [
         {
           "name": "CoffeeScript",
