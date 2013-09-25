@@ -339,7 +339,7 @@
         {
           "name": "MariaDB (MySQL)",
           "url": "https://mariadb.org",
-          "description": "Another \"non-relational\" database. This one is very popular, and also powerful. You need to know SQL for this. MariaDB is based on MySQL, and was forked after the community worried that Oracle wasn't devoting enough time to the project and was hiding things; they're mostly identical, but MariaDB is the way to go for \"MySQL\" nowadays."
+          "description": "Another \"relational\" database. This one is very popular, and also powerful. You need to know SQL for this. MariaDB is based on MySQL, and was forked after the community worried that Oracle wasn't devoting enough time to the project and was hiding things; they're mostly identical, but MariaDB is the way to go for \"MySQL\" nowadays."
         }
       ]
     },
