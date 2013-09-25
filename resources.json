@@ -323,6 +323,27 @@
       ]
     },
     {
+      "name": "Storage (databases)",
+      "description": "If you want to save information when a user leaves your app or coordinate between different users, you need a database of some sort. Here are some good options to get started.",
+      "resources": [
+        {
+          "name": "SQLite",
+          "url": "http://sqlite.org/quickstart.html",
+          "description": "A \"relational\" database-think about it like an Excel spreadsheet, but stricter, bigger, and more powerful. It might already be installed and it's really easy to set up a database. Note that you'll need to learn the basics of Structured Query Language (SQL) in order to use it."
+        },
+        {
+          "name": "MongoDB",
+          "url": "http://try.mongodb.org",
+          "description": "A \"non-relational\" database. You put whole \"objects\" in and can query them in simple or complicated ways. Check out the interactive dmeo!"
+        },
+        {
+          "name": "MariaDB (MySQL)",
+          "url": "https://mariadb.org",
+          "description": "Another \"non-relational\" database. This one is very popular, and also powerful. You need to know SQL for this. MariaDB is based on MySQL, and was forked after the community worried that Oracle wasn't devoting enough time to the project and was hiding things; they're mostly identical, but MariaDB is the way to go for \"MySQL\" nowadays."
+        }
+      ]
+    },
+    {
       "name": "Hosting",
       "description": "In order for your project to be out on the internet, you need to get it hosted. Here are a bunch of options to do that.",
       "resources": [
