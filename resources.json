@@ -143,6 +143,11 @@
           "name": "1pxdeep",
           "url": "http://rriepe.github.io/1pxdeep",
           "description": "Flat-ish version of Bootstrap."
+        },
+        {
+          "name": "Flatstrap",
+          "url": "http://flatstrap.org/",
+          "description": "Another flat version of Bootstrap. Looks similar, but with gradients and shadows gone. Also check out the \"flatstrap-sass\" and \"flatstrap-rails\" Ruby gems (easy to find on Google) for painless integraiton with Ruby on Rails (if you don't know what Rails is, disregard that last bit)."
         }
       ]
     },
