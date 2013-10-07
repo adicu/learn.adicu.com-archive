@@ -281,6 +281,11 @@
           "name": "Official Ruby Documentation",
           "url": "https://www.ruby-lang.org/en",
           "description": "Official source of information about the Ruby language."
+        },
+        {
+          "name": "Mr. Neighborly's Humble Little Ruby Book",
+          "url": "http://www.humblelittlerubybook.com",
+          "description": "From the website: \"An up to date book on Ruby programming, written in a style described as 'a beautiful display of pragmatically chunky bacon, wrapped in a nutshell.' Or something like that.\""
         }
       ]
     },
