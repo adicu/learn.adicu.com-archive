@@ -297,6 +297,11 @@
           "name": "Official Ruby on Rails Tutorial",
           "url": "http://ruby.railstutorial.org/ruby-on-rails-tutorial-book",
           "description": "This tutorial will walk you through building your first app with Ruby on Rails."
+        },
+        {
+          "name": "Rails Tutorials, Examples, and Starter Applications",
+          "url": "http://railsapps.github.io/rails-examples-tutorials.html",
+          "description": "A compilation of starter applications, tutorials, templates, and examples for different Rails libraries."
         }
       ]
     },
