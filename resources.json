@@ -96,6 +96,11 @@
           "name": "Codecademy JavaScript Track",
           "url": "http://www.codecademy.com/tracks/javascript",
           "description": "Interactive, online tutorial to learn to JavaScript. Best taken after Codecademy's Web Fundamentals track."
+        },
+        {
+          "name": "Airbnb JavaScript Style Guide",
+          "url": "https://github.com/airbnb/javascript",
+          "description": "This page is Airbnb's JavaScript style guide, and is a great reference for writing quality JavaScript code.  They include suggestions for spacing, variable declarations, and pretty much everything else JavaScript."
         }
       ]
     },
