@@ -124,10 +124,18 @@ $(function () {
         $('#submit-submit').attr('href', url);
     });
 
-    $('#close-modal, .vertical-offset, .modal-overlay').click(function() {
+    $('#close-modal').click(function() {
         $('body').removeClass("noscroll");
         $('.modal-wrapper').hide();
         $('#scrollUp').show();
+    });
+
+    $('.vertical-offset, .modal-overlay').click(function() {
+        $('#close-modal').click();
+    });
+
+    $('.modal').click(function(event) {
+        event.stopPropagation();
     });
 
     $('rinput[type=submit]').click(function() {
