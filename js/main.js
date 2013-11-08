@@ -110,7 +110,7 @@ $(function () {
     $('input, select, textarea').on("input", function() {
         console.log("Changing.");
         url = 'mailto:workshops@adicu.com?subject=' +
-            encodeURIComponent('[learn.adicu.com] Resource Submission') +
+            encodeURIComponent('[learn.adicu.com] Resource Submission: ') + $('#submit-resource-name').val() +
             '&body=';
         url += encodeURIComponent('Feel free to type and additional message above this line.\n\n' +
             '-----------------------\n' +
@@ -121,25 +121,22 @@ $(function () {
             'Resource URL: ' + $('#submit-resource-url').val() + '\n' +
             'Resourec Description: ' + $('#submit-resource-desc').val() + '\n'
             );
-        $('#submit-submit').attr('href', url);
+        $('#submit-submit-link').attr('href', url);
     });
 
     $('#close-modal').click(function() {
         $('body').removeClass("noscroll");
         $('.modal-wrapper').hide();
         $('#scrollUp').show();
-    });
+    })
 
-    $('.vertical-offset, .modal-overlay').click(function() {
+    $('.modal-overlay').click(function() {
         $('#close-modal').click();
     });
 
-    $('.modal').click(function(event) {
-        event.stopPropagation();
-    });
-
-    $('rinput[type=submit]').click(function() {
-        window.open($('#submit-submit').attr('href'), '_self');
+    $("form").submit(function(e) {
+        e.preventDefault();
+        window.open($('#submit-submit-link').attr('href'), '_self');
     })
 
     
