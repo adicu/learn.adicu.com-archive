@@ -28,6 +28,54 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
+        <div class="modal-wrapper">
+            <div class="modal-overlay">
+                &nbsp;
+            </div>
+            <div class="vertical-offset">
+                    <div class="modal">
+                        <div class="modal-inner">
+                        <a id="close-modal">
+                          <img src="img/modal_close.png">
+                        </a>
+                        <h1>Sumbit a Resource</h1>
+                        <p>We'd love to hear from you!  Let us know about a cool technical resource we've yet to discover!</p>
+
+                        <form role="form">
+                            <div class="form-group">
+                                <label for="submit-your-name">Name <span>*</span></label>
+                                <input id="submit-your-name" placeholder="Jane Smith" autofocus required>
+                            </div>
+                            <div class="form-group">
+                                <label for="submit-email">Email (optional)</label>
+                                <input id="submit-email" type="email" placeholder="janesmith@gmail.com">
+                            </div>
+                            <div class="form-group select-group">
+                                <label for="submit-technology">Technology <span>*</span></label>
+                                <select id="submit-technology">
+                                
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for"submit-resource-name">Resource Name <span>*</span></label>
+                                <input id="submit-resource-name" placeholder="Javascript Tips" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="submit-resource-url">Resource URL <span>*</span></label>
+                                <input id="submit-resource-url" type="url" placeholder="http://" required>
+                            </div>
+                            <div class="form-group desc-group">
+                                <label for="submit-resource-desc">Resource Description <span>*</span></label>
+                                <textarea id="submit-resource-desc" lines="10" required></textarea>
+                            </div>
+                            <a id="submit-submit">
+                                <input type="submit" value="Submit">
+                            </a>
+                        </form>
+                      </div>
+                </div>
+            </div>
+        </div>     
         <div class='jumbotron'>
             <h1>Resources</h1>
             <p>Brought to you by <a target='_blank' href='http://adicu.com'><img src='/img/logo.png'></a></p>
@@ -118,13 +166,15 @@
             <div class='topics'>
             </div>
         </div>
+        
+
         <div class='footer'>
             <ul class='links'>
                 <a target='_blank' href='http://twitter.com/adicu'><li class='twitter'></li></a>
                 <a target='_blank' href='http://facebook.com/adicu'><li class='fb'></li></a>
                 <a target='_blank' href='http://github.com/adicu'><li class='github'></li></a>
             </ul>
-            <p><a href="mailto:workshops@adicu.com?subject=[learn.adicu.com] Topic Suggestion">Suggest a topic</a> | <a href="mailto:workshops@adicu.com?subject=[learn.adicu.com] Resource Submission">Submit a Resource</a></p>
+            <p><a href="mailto:workshops@adicu.com?subject=[learn.adicu.com] Topic Suggestion">Suggest a topic</a> | <a href="#submit" id="open-modal">Submit a Resource</a></p>
         </div>
 
         <script src="js/jquery-1.10.2.min.js"></script>
