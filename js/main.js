@@ -3,17 +3,17 @@ $(function () {
     $.scrollUp({
         scrollName: 'scrollUp',
         scrollDistance: 300,
-        scrollFrom: 'top', 
-        scrollSpeed: 300, 
-        easingType: 'linear', 
-        animation: 'fade', 
+        scrollFrom: 'top',
+        scrollSpeed: 300,
+        easingType: 'linear',
+        animation: 'fade',
         animationInSpeed: 200,
-        animationOutSpeed: 200, 
+        animationOutSpeed: 200,
         scrollText: 'Scroll to top',
-        scrollTitle: false, 
-        scrollImg: true, 
-        activeOverlay: false, 
-        zIndex: 2147483647 
+        scrollTitle: false,
+        scrollImg: true,
+        activeOverlay: false,
+        zIndex: 2147483647
     });
 
     $('.jumbotron h1, .jumbotron p').delay(100).animate({ opacity: 1 }, 800);
@@ -49,6 +49,13 @@ $(function () {
             html += '</div></div>';
         }
         $('.topics').append(html);
+
+        html = "";
+        for (var i = 0; i < data.topics.length; i++) {
+            var id = data.topics[i].name.replace(".", "").replace(" ","").toLowerCase();
+            html += '<option value="' + id + '">' + data.topics[i].name + '</option>';
+        }
+        $("#submit-technology").append(html);
 
         $('.topic').on('click', function (event) {
             var topic = $(event.currentTarget);
@@ -87,5 +94,50 @@ $(function () {
 
         });
     }); 
+
+    $('#open-modal').click(function() {
+        $('.modal-wrapper').show();
+        
+        /* autofocus the submit form */
+        if(!("autofocus" in document.createElement("input"))) {
+            $("#submit-your-name").focus();
+        }
+
+        $('body').addClass("noscroll");
+        $('#scrollUp').hide();
+    });
+
+    $('input, select, textarea').on("input", function() {
+        console.log("Changing.");
+        url = 'mailto:workshops@adicu.com?subject=' +
+            encodeURIComponent('[learn.adicu.com] Resource Submission: ') + $('#submit-resource-name').val() +
+            '&body=';
+        url += encodeURIComponent('Feel free to type and additional message above this line.\n\n' +
+            '-----------------------\n' +
+            'Name: ' + $('#submit-your-name').val() + '\n' +
+            'Email: ' + ($('#submit-email').val() ? $('#submit-email').val() : '<No email provided>') + '\n' +
+            'Technology: ' + $('#submit-technology').val() + '\n' +
+            'Resource Name: ' + $('#submit-resource-name').val() + '\n' +
+            'Resource URL: ' + $('#submit-resource-url').val() + '\n' +
+            'Resourec Description: ' + $('#submit-resource-desc').val() + '\n'
+            );
+        $('#submit-submit-link').attr('href', url);
+    });
+
+    $('#close-modal').click(function() {
+        $('body').removeClass("noscroll");
+        $('.modal-wrapper').hide();
+        $('#scrollUp').show();
+    })
+
+    $('.modal-overlay').click(function() {
+        $('#close-modal').click();
+    });
+
+    $("form").submit(function(e) {
+        e.preventDefault();
+        window.open($('#submit-submit-link').attr('href'), '_self');
+    })
+
     
 });
