@@ -221,6 +221,22 @@
       ]
     },
     {
+      "name": "Data Visualization",
+      "description": "Several JavaScript libraries exist to make elegant, interactive visualizations in a highly customizable way.",
+      "resources": [
+        {
+          "name": "D3.js",
+          "url": "http://d3js.org/",
+          "description": "D3.js is one of the most popular visulization libraries and uses Scalable Vector Graphics (SVG), CSS, and Javascript."
+        },
+        {
+          "name": "Raphaël",
+          "url": "http://raphaeljs.com/",
+          "description": "Raphaël is another flexible javascript library that supports legacy browsers while still maintaining performance."
+        }
+      ]
+    },
+    {
       "name": "Python",
       "description": "A general-purpose, high-level programming language focused on clarity and readability. Often used to write the backend for web applications. A great first programming language.",
       "resources": [
