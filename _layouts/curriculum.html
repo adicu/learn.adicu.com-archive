@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf8">
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/markdown.css">
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/pygments.css">
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/curriculum.css">
+    <title> {{ page.title }} </title>
+  </head>
+  <body>
+      <a href="https://github.com/adicu/education.adicu.com/tree/master/{{ page.path }}">
+      <img class="github"
+           src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"
+           alt="Fork me on GitHub">
+    </a>
+
+    <header>
+      <h1> {{ page.title }} </h1>
+      <p><em> {{ page.tagline }}</em></p>
+      <p> Written and developed by <a href="mailto:{{ page.email }}">{{ page.author }}</a> and
+          <a href="https://adicu.com">ADI</a> </p>
+    </header>
+
+    <article>
+      {{ content }}
+    </article>
+
+    <!-- Asynchronous Google Analytics snippet -->
+    <script>
+        var _gaq = _gaq || [];
+        var pluginUrl = '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+        _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+        _gaq.push(['_setAccount', 'UA-18504951-1']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+    </script>
+  </body>
+</html>
