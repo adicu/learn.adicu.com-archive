@@ -1,0 +1,19 @@
+sudo: required
+dist: trusty
+
+language: ruby
+cache: bundler
+rvm:
+  - "2.3.1"
+
+before_install:
+  - gem update --system
+  - gem --version
+
+install:
+  - bundle install
+  - bundle exec jekyll build
+
+script:
+  - bundle exec htmlproofer --check-html --url-ignore /^https:\/\/github\.com\/adicu\/education\.adicu\.com\/tree\/master\/ _site/
+  - bundle exec mdl --style .ci/markdown_style.rb .

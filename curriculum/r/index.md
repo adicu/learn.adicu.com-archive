@@ -23,7 +23,6 @@ time. The first couple encounters might be slightly painful because R is
 really...quirky. But it's totally worth it because in the end, you'll
 make a brand new best friend who will make your life infinitely easier.
 
-
 ### Installing R
 
 You can install the appropriate version of R, depending on whether you
@@ -971,7 +970,7 @@ So easy to do!  One thing to note, though, is that your results won't be
 reproducible because these are **random** draws from the specified
 distributions.
 
-```$
+```R
 # this is the uniform distribution from [0,1]
 > runif(3)
 [1] 0.41533309 0.06394917 0.49999883
@@ -979,6 +978,7 @@ distributions.
 > runif(3)
 [1] 0.9890580 0.8123763 0.2896802
 ```
+
 Once you have a set of values to work with, you can also sample from it
 using the -- surprise -- `sample()` function.
 
@@ -1019,7 +1019,8 @@ variables. Let's say we have a vector with a bunch of eye colors.
 
 ```R
 # these probably aren't human eyes...just sayin
-> eyes = c("red", "white", "orange", "white", "purple", "red", "white", "orange", "purple")
+> eyes = c("red", "white", "orange", "white", "purple", "red",
+           "white", "orange", "purple")
 > eyes
 [1] "red"    "white"  "orange" "white"  "purple"
 [6] "red"    "white"  "orange" "purple"
@@ -1122,7 +1123,7 @@ something like `/Users/yourID/Desktop`, R won't be able to find your
 file.
 
 Let's pretend like we're in the proper directory. Normally, `.txt` files
-separated by whitespace (` `) are read using `read.table()`, and `.csv`
+separated by whitespace (" ") are read using `read.table()`, and `.csv`
 files by `read.csv()`.
 
 ```R
@@ -1159,7 +1160,7 @@ example. You can access them using the `data()` function.
 6          5.4         3.9          1.7         0.4  setosa
 
 > str(iris)
-'data.frame':	150 obs. of  5 variables:
+'data.frame':   150 obs. of  5 variables:
  $ Sepal.Length: num  5.1 4.9 4.7 4.6 5 5.4 4.6 5 4.4 4.9 ...
  $ Sepal.Width : num  3.5 3 3.2 3.1 3.6 3.9 3.4 3.4 2.9 3.1 ...
  $ Petal.Length: num  1.4 1.4 1.3 1.5 1.4 1.7 1.4 1.5 1.4 1.5 ...
@@ -1376,6 +1377,7 @@ function and plug in the appropriate arguments. I'll provide a few of
 the arguments that I use a lot:
 
 `plot(x, y, type, main, xlab, ylab)`:
+
 - `x` = independent variable
 - `y` = response variable
 - `type` = `"l"` for line, `"p"` for points, `"b"` for both
@@ -1424,6 +1426,7 @@ a = 2; b = -2
 + }
 [1] "a and b are not equal"
 ```
+
 Note the slightly awkward structuring of the if/else statement. This has
 to do with the way that R interprets things line by line, so you have to
 be careful with how you place your curly brackets.
@@ -1457,12 +1460,12 @@ Then you can call the function with your own argument. For example,
 
 ## Additional Resources
 
-Along with this tutorial, there is a wealth of information available on R all across the web. Below are some good places to start:
+Along with this tutorial, there is a wealth of information available on
+R all across the web. Below are some good places to start:
 
 - [ADI Resources](https://adicu.com/learn)
-- [From the Creators of R](https://www.stat.auckland.ac.nz/~stat782/downloads/01-Basics.pdf)
 - [Cool ggplot2 Cheat
   Sheet](https://www.rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf)
-- [Kaggle Tutorial with R](https://trevorstephens.com/post/72916401642/titanic-getting-started-with-r)
-- [UCLA Tutorial](https://www.ats.ucla.edu/stat/r/modules/)
+- [Kaggle Tutorial with R](http://trevorstephens.com/post/72916401642/titanic-getting-started-with-r)
+- [UCLA Tutorial](http://www.ats.ucla.edu/stat/r/modules/)
 - [DataCamp Tutorial](https://www.datacamp.com/courses/free-introduction-to-r)
